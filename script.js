@@ -6,6 +6,10 @@ async function checkWeather() {
     var data = await response.json();
 
     console.log(data);
+    console.log(data.main);
+    console.log(data.main.humidity);
+
+    document.querySelector(".city").innerHTML = data.name;
 }
 
 checkWeather();
