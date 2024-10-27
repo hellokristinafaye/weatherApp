@@ -5,6 +5,14 @@ const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
+// so the return button works inside the input box
+document.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+        checkWeather(searchBox.value);
+        event.preventDefault();
+    }
+})
+
 async function checkWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
     var data = await response.json();
@@ -29,6 +37,9 @@ async function checkWeather(city) {
     } else if (data.weather[0].main == "Mist") {
         weatherIcon.src = "images/mist.png";
     }
+
+    document.querySelector(".weather").style.display = "block";
+
 }
 
 
