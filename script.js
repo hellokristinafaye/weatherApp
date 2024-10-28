@@ -13,6 +13,7 @@ document.addEventListener("keydown", event => {
     }
 })
 
+// this function pulls the weather info based on user input, then displays the called weather info on the card.  Also changes the weather icon based on API response.
 async function checkWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
 
