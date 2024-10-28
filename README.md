@@ -2,7 +2,7 @@
 
 This is a weather reporting app. Users enter the city they want to know about, hit enter or click the search button.  An API call is then sent to Open Weather’s API and the interface is updated with the accurate information.
 
-Based on [this tutorial by Great Stack](https://youtu.be/MIYQR-Ybrn4?si=v9Dg4lY2zpshWA_L), icon assets provided by creator. 
+Based on [this tutorial by Great Stack](https://youtu.be/MIYQR-Ybrn4?si=v9Dg4lY2zpshWA_L), icon
 
 ## Technologies Used:
 
@@ -34,4 +34,17 @@ Oh and I would like to add clearing the input box once the search is successful.
 
 ## Design Evolution:
 
-**
+![1730141052160](image/README/1730141052160.png)
+
+![1730141061445](image/README/1730141061445.png)
+
+
+![1730141075063](image/README/1730141075063.png)![1730141082462](image/README/1730141082462.png)
+
+![1730141089822](image/README/1730141089822.png)
+
+![1730141116282](image/README/1730141116282.png)
+
+
+
+error message![1730141156543](image/README/1730141156543.png)
